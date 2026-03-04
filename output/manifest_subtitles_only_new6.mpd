@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/shaka-project/shaka-packager version v3.4.2-c819dea-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT12S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="text" lang="en" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Label>English - United States 116</Label>
+      <Representation id="0" bandwidth="346" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s4_init.mp4" media="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s4_$Number$.mp4" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="6000" r="1"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="text" lang="en" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Label>English - United States 401A</Label>
+      <Representation id="1" bandwidth="347" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s5_init.mp4" media="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s5_$Number$.mp4" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="6000" r="1"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="text" lang="en" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Label>English - United States 401B</Label>
+      <Representation id="2" bandwidth="347" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s6_init.mp4" media="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s6_$Number$.mp4" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="6000" r="1"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" contentType="text" lang="ru" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Label>Русский - Россия 394</Label>
+      <Representation id="3" bandwidth="346" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s0_init.mp4" media="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s0_$Number$.mp4" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="6000" r="1"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="4" contentType="text" lang="ru" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Label>Русский - Россия 400</Label>
+      <Representation id="4" bandwidth="346" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s1_init.mp4" media="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s1_$Number$.mp4" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="6000" r="1"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="5" contentType="text" lang="uk" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Label>Українська - Україна 394</Label>
+      <Representation id="5" bandwidth="346" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s2_init.mp4" media="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s2_$Number$.mp4" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="6000" r="1"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="6" contentType="text" lang="uk" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Label>Українська - Україна 400</Label>
+      <Representation id="6" bandwidth="346" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s3_init.mp4" media="/home/oem/Downloads/dash-pakager/hello-dash/implementation/output/text/s3_$Number$.mp4" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="6000" r="1"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
